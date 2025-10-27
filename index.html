@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <title>Lost & Found Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎒 Lost & Found Board</h1>
+
+  <form id="itemForm">
+    <select id="type">
+      <option value="lost">🕵️‍♀️ Lost</option>
+      <option value="found">📦 Found</option>
+    </select>
+    <input type="text" id="itemName" placeholder="Зүйлийн нэр" required>
+    <input type="text" id="description" placeholder="Тайлбар" required>
+    <input type="text" id="contact" placeholder="Холбоо барих (утас/имэйл)">
+    <button type="submit">Нэмэх</button>
+  </form>
+
+  <div id="board"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
